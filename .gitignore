@@ -1,0 +1,25 @@
+# Ignore RSA keys
+private_key.pem
+public_key.pem
+
+# Ignore other key files
+runespace.gpg.key
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore data configurations if needed (customize this if you want to ignore specific config files)
+# /data/config/*.toml
+
+# Ignore cache directory
+data/cache/
